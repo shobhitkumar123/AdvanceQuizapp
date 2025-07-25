@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Advanced Quiz App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="quiz-container">
+    <h1>Advanced Quiz App</h1>
+    <div id="timer">Time Left: <span id="time">15</span> seconds</div>
+    <div id="question-container">
+      <div id="question">Loading question...</div>
+      <form id="answer-form">
+        <div class="answer"><input type="radio" name="answer" id="a" value="a"><label for="a" id="a_text"></label></div>
+        <div class="answer"><input type="radio" name="answer" id="b" value="b"><label for="b" id="b_text"></label></div>
+        <div class="answer"><input type="radio" name="answer" id="c" value="c"><label for="c" id="c_text"></label></div>
+        <div class="answer"><input type="radio" name="answer" id="d" value="d"><label for="d" id="d_text"></label></div>
+        <button type="submit">Submit</button>
+      </form>
+      <div id="result"></div>
+    </div>
+  </div>
+  <script src="script1.js"></script>
+</body>
+</html>
